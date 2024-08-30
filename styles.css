@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F7FFF7;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+#bilde {
+    display: flex;
+    border-radius: 10px;
+    width: 50vw;
+    height: auto;
+}
+
+#title {
+    font-size: 6vw;
+    margin: 10px;
+    font-family: "New Amsterdam", sans-serif;
+}
+
+.title1 {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.text {
+    display: flex;
+    align-self: center;
+    text-align: center;
+    margin: 10px;
+    max-width: 400px;
+    text-overflow: ellipsis;
+    font-family: "SUSE", sans-serif;;
+}
